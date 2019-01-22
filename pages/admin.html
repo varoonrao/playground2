@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <title>playground</title>
+    <link href="../css/styles.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body style="font-family: product sans;background-color: rgb(34, 36, 49);">
+    <header>
+
+        <div class="header">
+            <!-- <button type="submit" class="dis-button"> <i class="fa fa-bars"></i></button> -->
+            <a href="../index.html" style="text-align: center;"> <img src="../images/logo1.svg" class="header-img"></a>
+            </a>
+            <input type="search" class="sfield" placeholder="       Search..." />
+        </div>
+    </header>
+    <nav>
+
+        <div class="sidebar">
+
+            <a class="active" href="#home">Home</a>
+            <a href="venue.html">Venue</a>
+            <a href="#">Sports</a>
+            <a href="#">About Us</a>
+            <a href="login_signup.html">Login</a>
+            <input type="search" class="sfield" style="display:none;width:25% ;float: right;margin-top:25px;margin-right:20px;"
+                placeholder="Search..." />
+        </div>
+    </nav>
+
+
+    <main>
+
+
+        <div class="vl">
+            <div>
+                <h1 style="color: ivory">List of sports</h1>
+                <div class="row1">
+                    <div class="column1">
+                        <a href="details.html">
+                            <div class="card">
+                                <img class="img-icon" src="../images/crick1.jpg" alt="crick_image">
+                                <h2 style="padding-left: 15px; color:black">Cricket <i class="fa fa-angle-double-right"></i></h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="column1">
+                        <div class="card">
+                            <img class="img-icon" src="../images/football1.jpg" alt="foo_image">
+                            <h2 style="padding-left: 15px; color:black">Football <i class="fa fa-angle-double-right"></i></h2>
+                        </div>
+                    </div>
+                    <div class="column1">
+                        <div class="card">
+                            <img class="img-icon" src="../images/tenn.jpeg" alt="tenn_image">
+                            <h2 style="padding-left: 15px;color:black;">Tennis <i class="fa fa-angle-double-right"></i></h2>
+                        </div>
+                    </div>
+                    <div class="column1">
+                        <a href="addsport.html">
+                            <div class="card">
+                                <img class="img-icon" src="../images/addsp.svg" alt="add_image">
+                                <h2 style="padding-left: 15px;color:black;">Add Sports<i class="fa fa-angle-double-right"></i></h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="column1">
+                        <div class="card">
+                            <img class="img-icon" src="../images/addvn.svg" alt="add_image">
+                            <h2 style="padding-left: 15px;color:black;">Add Venue<i class="fa fa-angle-double-right"></i></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <h2></h2>
+        <hr>
+    </main>
+    <footer>
+        <div>
+            <div class="footer">
+                <hr style="border:0.5px solid rgb(122, 122, 122);">
+                <div class="left">
+                    <h2>Social Links</h2>
+                    <img class="header-img" src="../images/logo1.svg">
+                    <dl>
+                        <dt style="display: inline"><i class="fa fa-facebook" style="padding: 10px;"></i></dt>
+                        <i class="fa fa-twitter" style="padding: 10px;"></i>
+                        <i class="fa fa-google-plus" style="padding: 10px;"></i>
+                    </dl>
+                </div>
+                <div class="footer-center">
+                    <h2> Contact Us </h2>
+                    <dl>
+                        <dt><i class="fa fa-phone" style="padding: 10px;"></i>+91 866 064 7811 </dt>
+                        <dt><i class="fa fa-envelope" style="padding: 10px;"></i>info@playground.com</dt>
+                    </dl>
+                </div>
+                <div class="right">
+                    <h2>Address</h2>
+                    <dl>
+                        <dt><i class="fa fa-home" style="padding: 10px;"></i>Specbee</dt>
+                        <dt></dt><i class="fa fa-square" style="padding: 10px;"></i>PES South A Block</dt>
+                        <dt><i class="fa fa-map" style="padding: 10px;"></i>Benagluru</dt>
+                    </dl>
+                </div>
+
+            </div>
+            <hr style="border:0.5px solid rgb(122, 122, 122);">
+            <center>
+                <h5><i class="fa fa-copyright" style="padding: 10px;"></i>2019, All Rights Reserved. Developed with <i
+                        class="fa fa-heart"></i>
+                    by Varun</h5>
+            </center>
+
+        </div>
+    </footer>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+            document.body.style.backgroundColor = "white";
+        }
+    </script>
+
+</body>
+
+</html>
